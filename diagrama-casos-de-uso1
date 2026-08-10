@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net">
+  <diagram name=" diagrama-casos-de-uso" id="lFXrq2KzRWYcAXhPyNKj">
+    <mxGraphModel dx="691" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; BliblioTech&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="500" width="410" x="290" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Devolver livro&lt;div&gt;(RF040&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="344" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Cadastrar leitor&lt;div&gt;(RF02)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="344" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Emprestar livro&lt;div&gt;(RF01)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="344" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-8" edge="1" parent="1" source="JCubs2iR_SYEU0iCqYjS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="JCubs2iR_SYEU0iCqYjS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-9" edge="1" parent="1" source="JCubs2iR_SYEU0iCqYjS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="JCubs2iR_SYEU0iCqYjS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-10" edge="1" parent="1" source="JCubs2iR_SYEU0iCqYjS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="JCubs2iR_SYEU0iCqYjS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Bibliotecário" vertex="1">
+          <mxGeometry height="60" width="30" x="100" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Buscar livro&lt;div&gt;do acervo&lt;/div&gt;&lt;div&gt;(RF03)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="540" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-15" edge="1" parent="1" source="JCubs2iR_SYEU0iCqYjS-4" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JCubs2iR_SYEU0iCqYjS-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.1454" y="17" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="510" y="220" as="sourcePoint" />
+            <mxPoint x="670" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-16" edge="1" parent="1" source="JCubs2iR_SYEU0iCqYjS-6" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.021;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" target="JCubs2iR_SYEU0iCqYjS-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="460" y="430" as="sourcePoint" />
+            <mxPoint x="580" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCubs2iR_SYEU0iCqYjS-18" parent="1" style="html=1;whiteSpace=wrap;" value="Diagrama de Casos de Uso - Bibliotech - Atividade 17" vertex="1">
+          <mxGeometry height="35" width="290" x="80" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
